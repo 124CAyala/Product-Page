@@ -2,3 +2,38 @@ html, body {
   height: 100%;
   width: 100%;
 }
+/* .bg {
+  background-image: url("imgs/bmw-black.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: auto;
+} */
+.swatch {
+	border: 1px solid #bbb;
+	display: inline-block;
+	width: 22%;
+	height: 40px;
+	margin: 0;
+	margin-right: calc( 4% - 3px );
+	cursor: pointer;
+}
+.swatch:last-child {
+	margin-right: 0;
+}
+.swatch#black {
+	background-color: black;
+}
+.swatch#yellow {
+	background-color: #ffcd69;
+}
+.swatch#grey {
+	background-color: grey;
+}
+.swatch#red {
+	background-color: #ff2424;
+}
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 40px;
+}
